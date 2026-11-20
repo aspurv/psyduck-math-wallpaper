@@ -1,0 +1,59 @@
+{
+  "title": "Psyduck Math Headache (Animated)",
+  "description": "Fondo animado e interactivo de Psyduck rodeado de fórmulas matemáticas con pulso psíquico de jaqueca, efecto parallax 2.5D, símbolos flotantes y reactividad al sonido del sistema.",
+  "file": "index.html",
+  "type": "web",
+  "visibility": "public",
+  "preview": "preview.jpg",
+  "general": {
+    "properties": {
+      "schemecolor": {
+        "text": "Color de Aura Psíquica",
+        "type": "color",
+        "value": "0.3 0.75 1.0"
+      },
+      "headacheintensity": {
+        "text": "Intensidad de Jaqueca (Ondas)",
+        "type": "slider",
+        "min": 0.0,
+        "max": 2.5,
+        "value": 1.0,
+        "step": 0.1
+      },
+      "parallaxstrength": {
+        "text": "Efecto Parallax (Ratón)",
+        "type": "slider",
+        "min": 0.0,
+        "max": 2.0,
+        "value": 1.0,
+        "step": 0.1
+      },
+      "mathparticles": {
+        "text": "Símbolos Matemáticos Flotantes",
+        "type": "bool",
+        "value": true
+      },
+      "particlecount": {
+        "text": "Cantidad de Símbolos",
+        "type": "slider",
+        "min": 20,
+        "max": 150,
+        "value": 60,
+        "step": 10
+      },
+      "audioeffect": {
+        "text": "Reactividad al Audio",
+        "type": "bool",
+        "value": true
+      },
+      "audiointensity": {
+        "text": "Sensibilidad al Sonido",
+        "type": "slider",
+        "min": 0.5,
+        "max": 3.0,
+        "value": 1.2,
+        "step": 0.1
+      }
+    }
+  }
+}
